@@ -1,0 +1,36 @@
+[
+  {
+    "query": "How do I configure automations in Hiver?",
+    "retrieved": [
+      {
+        "id": "automation_setup.txt",
+        "text": "Title: How to Configure Automations in Hiver\n\nAutomations in Hiver help teams reduce manual effort by automatically performing actions when certain conditions are met. You can use automations to assign emails, update statuses, apply tags, trigger workflows, and more.\n\nTo configure automations in Hiver:\n\nGo to the Hiver Admin Panel and click on Automations.\n\nClick Create Automation Rule.\n\nSelect the trigger condition, such as When a new email arrives or When status changes.\n\nAdd conditions to filter which emails the automation should apply to (e.g., subject contains \u201cRefund\u201d, email is tagged \u201cPriority\u201d).\n\nChoose the action you want to perform:\n\nAssign email to a specific user\n\nChange status (Open \u2192 Pending)\n\nApply tags automatically\n\nCreate tasks\n\nAdd notes or reminders\n\nClick Save Rule.\n\nYou can edit or disable automation rules at any time from the Automations dashboard.\nIf an automation is not working, ensure that:\n\nRule conditions match the incoming emails,\n\nThe rule is enabled,\n\nNo other rule overrides it.",
+        "score": 0.8534743082080166
+      },
+      {
+        "id": "csat_troubleshooting.txt",
+        "text": "Title: Why CSAT Scores May Not Appear in Hiver\n\nCSAT (Customer Satisfaction) scores in Hiver are generated when customers submit feedback through CSAT surveys sent after conversations are resolved. If the CSAT score is not appearing, there are a few possible causes.\n\nCommon reasons why CSAT may not appear:\n\nCSAT surveys are disabled\nGo to the Admin Panel \u2192 CSAT Settings and ensure that CSAT surveys are turned ON.\n\nConversations are not being marked as Resolved\nCSAT surveys are only sent when a conversation moves to the Resolved status.\nIf conversations remain Open/Pending, no survey is sent.\n\nEmail replies are not reaching the CSAT mailbox\nEnsure the CSAT response address is correctly configured and has permission to receive replies.\n\nRecent responses may still be syncing\nCSAT reports usually refresh within a few minutes. During peak usage, this may take slightly longer.\n\nSurvey delivery issues\nIf customers do not receive the survey email, the CSAT score will not be generated.\nReview your email deliverability or spam settings.\n\nIf CSAT still does not appear, regenerate the CSAT configuration or contact Hiver support for verification of survey logs.",
+        "score": 0.6467190466141671
+      }
+    ],
+    "confidence": 85.35,
+    "answer": "```json\n{\n  \"answer\": \"To configure automations in Hiver, navigate to the Hiver Admin Panel and click on Automations. Then, click \\\"Create Automation Rule\\\" and select your desired trigger condition, such as \\\"When a new email arrives.\\\" You can add conditions to filter which emails the automation applies to, and then choose the action you want to perform, like assigning the email or changing its status. Finally, click \\\"Save Rule.\\\"\",\n  \"sources\": [\"automation_setup.txt\"],\n  \"confidence\": 100\n}\n```"
+  },
+  {
+    "query": "Why is CSAT not appearing?",
+    "retrieved": [
+      {
+        "id": "csat_troubleshooting.txt",
+        "text": "Title: Why CSAT Scores May Not Appear in Hiver\n\nCSAT (Customer Satisfaction) scores in Hiver are generated when customers submit feedback through CSAT surveys sent after conversations are resolved. If the CSAT score is not appearing, there are a few possible causes.\n\nCommon reasons why CSAT may not appear:\n\nCSAT surveys are disabled\nGo to the Admin Panel \u2192 CSAT Settings and ensure that CSAT surveys are turned ON.\n\nConversations are not being marked as Resolved\nCSAT surveys are only sent when a conversation moves to the Resolved status.\nIf conversations remain Open/Pending, no survey is sent.\n\nEmail replies are not reaching the CSAT mailbox\nEnsure the CSAT response address is correctly configured and has permission to receive replies.\n\nRecent responses may still be syncing\nCSAT reports usually refresh within a few minutes. During peak usage, this may take slightly longer.\n\nSurvey delivery issues\nIf customers do not receive the survey email, the CSAT score will not be generated.\nReview your email deliverability or spam settings.\n\nIf CSAT still does not appear, regenerate the CSAT configuration or contact Hiver support for verification of survey logs.",
+        "score": 0.6777268297841113
+      },
+      {
+        "id": "automation_setup.txt",
+        "text": "Title: How to Configure Automations in Hiver\n\nAutomations in Hiver help teams reduce manual effort by automatically performing actions when certain conditions are met. You can use automations to assign emails, update statuses, apply tags, trigger workflows, and more.\n\nTo configure automations in Hiver:\n\nGo to the Hiver Admin Panel and click on Automations.\n\nClick Create Automation Rule.\n\nSelect the trigger condition, such as When a new email arrives or When status changes.\n\nAdd conditions to filter which emails the automation should apply to (e.g., subject contains \u201cRefund\u201d, email is tagged \u201cPriority\u201d).\n\nChoose the action you want to perform:\n\nAssign email to a specific user\n\nChange status (Open \u2192 Pending)\n\nApply tags automatically\n\nCreate tasks\n\nAdd notes or reminders\n\nClick Save Rule.\n\nYou can edit or disable automation rules at any time from the Automations dashboard.\nIf an automation is not working, ensure that:\n\nRule conditions match the incoming emails,\n\nThe rule is enabled,\n\nNo other rule overrides it.",
+        "score": 0.4058807863720962
+      }
+    ],
+    "confidence": 67.77,
+    "answer": "```json\n{\n  \"answer\": \"CSAT scores may not appear if CSAT surveys are disabled in the Admin Panel or if conversations are not being marked as Resolved, as surveys are only sent for resolved conversations. Other reasons include email replies not reaching the CSAT mailbox, recent responses still syncing, or issues with survey delivery preventing customers from receiving the email. If the problem persists, regenerating the CSAT configuration or contacting Hiver support is recommended.\",\n  \"sources\": [\"csat_troubleshooting.txt\"],\n  \"confidence\": 100\n}\n```"
+  }
+]

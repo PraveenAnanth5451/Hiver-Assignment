@@ -1,0 +1,36 @@
+Title: How to Configure Automations in Hiver
+
+Automations in Hiver help teams reduce manual effort by automatically performing actions when certain conditions are met. You can use automations to assign emails, update statuses, apply tags, trigger workflows, and more.
+
+To configure automations in Hiver:
+
+Go to the Hiver Admin Panel and click on Automations.
+
+Click Create Automation Rule.
+
+Select the trigger condition, such as When a new email arrives or When status changes.
+
+Add conditions to filter which emails the automation should apply to (e.g., subject contains “Refund”, email is tagged “Priority”).
+
+Choose the action you want to perform:
+
+Assign email to a specific user
+
+Change status (Open → Pending)
+
+Apply tags automatically
+
+Create tasks
+
+Add notes or reminders
+
+Click Save Rule.
+
+You can edit or disable automation rules at any time from the Automations dashboard.
+If an automation is not working, ensure that:
+
+Rule conditions match the incoming emails,
+
+The rule is enabled,
+
+No other rule overrides it.

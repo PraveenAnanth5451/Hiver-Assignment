@@ -1,0 +1,24 @@
+Title: Why CSAT Scores May Not Appear in Hiver
+
+CSAT (Customer Satisfaction) scores in Hiver are generated when customers submit feedback through CSAT surveys sent after conversations are resolved. If the CSAT score is not appearing, there are a few possible causes.
+
+Common reasons why CSAT may not appear:
+
+CSAT surveys are disabled
+Go to the Admin Panel → CSAT Settings and ensure that CSAT surveys are turned ON.
+
+Conversations are not being marked as Resolved
+CSAT surveys are only sent when a conversation moves to the Resolved status.
+If conversations remain Open/Pending, no survey is sent.
+
+Email replies are not reaching the CSAT mailbox
+Ensure the CSAT response address is correctly configured and has permission to receive replies.
+
+Recent responses may still be syncing
+CSAT reports usually refresh within a few minutes. During peak usage, this may take slightly longer.
+
+Survey delivery issues
+If customers do not receive the survey email, the CSAT score will not be generated.
+Review your email deliverability or spam settings.
+
+If CSAT still does not appear, regenerate the CSAT configuration or contact Hiver support for verification of survey logs.
