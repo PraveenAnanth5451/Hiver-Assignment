@@ -136,7 +136,7 @@ def main():
     with open("part3_gemini_rag_results.json", "w", encoding="utf-8") as f:
         json.dump(results, f, indent=2)
 
-    print("\nSaved → part3_gemini_rag_results.json")
+    print("\nSaved → part3_result.json")
 
 
 if __name__ == "__main__":
