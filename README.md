@@ -117,7 +117,7 @@ python PART_C/part3_gemini_rag.py
 
 ---
 
-# ## **🔧 Requirements**
+#  **🔧 Requirements**
 
 Install dependencies:
 
@@ -134,7 +134,7 @@ export GEMINI_API_KEY="your_key_here" # Mac/Linux
 
 ---
 
-# ## **🧠 Summary**
+# **🧠 Summary**
 
 This assignment includes:
 
